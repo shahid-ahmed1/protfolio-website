@@ -107,9 +107,12 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 /* about section */
 .about{
-    margin-top: 130px;
     border-radius: 10px;
     background: rgb(255, 248, 243);
     max-height: 550px;
@@ -121,4 +124,91 @@ main{
     justify-content: space-between;
     gap: 50px;
 
+}
+/* what i do section related style */
+
+.skill{
+padding: 30px;
+border-radius: 5px;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+background: rgb(255, 255, 255);
+}
+.skill-container{
+  display: flex;
+  gap: 24px;
+}
+/* resume section relaterd style */
+.resome{
+    background: rgb(255, 255, 255);
+    display: flex;
+    max-width: 1140px;
+    margin:  auto;
+}
+.resome-title{
+    color: rgb(71, 71, 71);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+}
+.title{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+}
+.skill-description{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+#download{
+    margin-top: 30px;
+    justify-content: center;
+}
+/*  footer related style*/
+.footer{
+    margin-top: 130px;
+    padding: 130px 230px;
+    display: flex;
+    background: rgb(255, 248, 243);
+    gap: 100px;
+
+
+}
+.footer-content{
+    width: 50%;
+    justify-content: left;
+}
+.footer-title{
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+.footer-discription{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+footer input[type="text"] , footer input[type="email"], footer input[type="textarea"]  {
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    height: 64px;
+    display: block;
+    padding:10px 20px ;
+    margin-bottom:24px ;
+    border: none;
+    width: 100%;
+    margin-bottom: 30px;
+    
+}
+footer image{
+    margin-right: 30px;
 }
